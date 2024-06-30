@@ -1,0 +1,27 @@
+{
+  "name": "drizzle-notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
+    "dev": "tsx app.ts",
+    "resetDb": "rm -rf db/test.db && drizzle-kit migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "just taking some notes about working with drizzle",
+  "dependencies": {
+    "better-sqlite3": "^11.1.1",
+    "drizzle-orm": "^0.31.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.10",
+    "@types/node": "^20.14.9",
+    "drizzle-kit": "^0.22.8",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}

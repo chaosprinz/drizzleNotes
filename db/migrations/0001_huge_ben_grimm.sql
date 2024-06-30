@@ -1,0 +1,1 @@
+ALTER TABLE `quotes` ADD `updated_at` text DEFAULT (current_timestamp);
